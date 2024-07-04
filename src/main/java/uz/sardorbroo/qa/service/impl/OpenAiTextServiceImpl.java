@@ -17,6 +17,7 @@ public class OpenAiTextServiceImpl implements OpenAiTextService {
     private final OpenAiClient client;
 
     @Override
+    // todo implement and finish
     public Optional<String> answer(String question) {
         log.debug("Answer to the question. Question: {}", question);
 
